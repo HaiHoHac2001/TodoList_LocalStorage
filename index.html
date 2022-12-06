@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/62136a8d82.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Danh sách công việc 📖</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Danh sách công việc</h1>
+      <form id="new-task-form">
+        <input 
+          type="text" 
+          name="new-task-input" 
+          id="new-task-input" 
+          placeholder="Công việc của hôm nay?" />
+        <input 
+          type="submit"
+          id="new-task-submit" 
+          value="Thêm ＋" />
+      </form>
+    </header>
+    <main>
+      <div class="task-list">
+        <h2>Những công việc</h2>
+  
+        <ul id="tasks">
+  
+          <!-- <div class="task">
+            <div class="content">
+              <input 
+                type="text" 
+                class="text" 
+                value="A new task"
+                readonly>
+            </div>
+            <div class="actions">
+              <button class="edit">Edit</button>
+              <button class="delete">Delete</button>
+            </div>
+          </div> -->
+  
+        </ul>
+      </div>
+    </main>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
